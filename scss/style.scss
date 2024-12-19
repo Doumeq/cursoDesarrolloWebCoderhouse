@@ -52,9 +52,6 @@ nav {
     }
   }
   
-  .navbar-toggler-icon {
-    background-color: $color-secundario;
-  }
 
   .navbar-nav {
     display: flex;
@@ -322,4 +319,22 @@ footer {
     filter: invert(1);
   }
 }
+
+.map-responsive {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; 
+  overflow: hidden;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; 
+  }
+}
+
 
